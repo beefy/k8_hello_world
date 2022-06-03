@@ -40,7 +40,7 @@ kubectl expose deployment kubia --type=LoadBalancer --name kubia-http --port=808
 kubectl scale deployment kubia --replicas=3
 ```
 
-## List the replicas and check that they are being load balanced randomly
+## Make requests to the replicas and check that they are being load balanced randomly
 
 ```
 nate@spooky:~/k8_hello_world$ kubectl get services
