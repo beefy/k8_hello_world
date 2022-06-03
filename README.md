@@ -60,5 +60,5 @@ Nate says 'Hello World' from kubia-848cf6987f-27kvc
 ```
 kubectl delete service kubia-http
 kubectl delete deployment kubia
-gcloud container delete cluster kubia
+gcloud container clusters delete kubia
 ```
